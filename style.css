@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(260deg, rgba(0, 148, 108, 0.594), rgba(0, 112, 160, 0.703));
+}
+
+.container{
+    background: rgba(255, 255, 255, 0.306);
+    padding: 20px;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.messages{
+    /* background: blue; */
+    height: 100%;
+    width: 100%;
+}
+
+.writer{
+    /* background: red; */
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.writer input{
+    width: 80%;
+    padding-left: 20px;
+    height: 70%;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    background: rgba(0, 177, 135, 0.388);
+    color: white;
+}
+input::placeholder{
+    color: rgba(0, 21, 137, 0.747);
+}
+.writer button{
+    height: 70%;
+    width: 15%;
+    border: none;
+    border-radius: 5px;
+    background: rgba(0, 0, 116, 0.822);
+    color: white;
+}
+
+.message{
+    background: rgba(83, 83, 83, 0.215);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+
+}
+
+.message .name{
+    color: rgb(99, 99, 99);
+}
+
+.message .mes{
+    margin-top: 10px;
+    width: 400px;
+}
+
+.underline{
+    height: 2px;
+    width: 100%;
+    background: rgba(49, 49, 49, 0.637);
+}
